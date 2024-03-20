@@ -38,7 +38,7 @@ func main() {
 			Resolve: func(p graphql.ResolveParams) (interface{}, error) {
 				return User{
 					Name: "Raj",
-					Age:  16,
+					Age:  68,
 				}, nil
 			},
 		},
